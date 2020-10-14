@@ -1,3 +1,5 @@
+//Lecture 17/18, Type annotations vs Type Inference
+
 //If we use initalization and declaration at the same line,
 //typscript will be doing the inference automatically.
 let apples: number = 5;

@@ -17,8 +17,11 @@ const profile = {
 
 // const { age }: { age: number } = profile;
 
+//object destructuring
 const { age, name1 }: { age: number; name1: string } = profile;
+//second {} is where I annotate the type in Object destructuring.
 
+//same rule as above
 const {
   coords: { lat, lng },
 }: { coords: { lat: number; lng: number } } = profile;
